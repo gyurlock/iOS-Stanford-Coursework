@@ -26,7 +26,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="scale">
-                                        <real key="value" value="1"/>
+                                        <real key="value" value="0.90000000000000002"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="mouthCurvature">
                                         <real key="value" value="1"/>
@@ -35,7 +35,7 @@
                                         <real key="value" value="4"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="color">
-                                        <color key="value" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="value" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
@@ -48,6 +48,9 @@
                             <constraint firstAttribute="trailing" secondItem="8Zx-K5-62e" secondAttribute="trailing" id="jtt-PU-SUJ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="faceView" destination="8Zx-K5-62e" id="9BF-95-Erb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
