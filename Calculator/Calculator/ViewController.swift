@@ -26,6 +26,14 @@ class ViewController: UIViewController {
     
     private var brain = CalculatorBrain()
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        brain.addOperation(named: "✅") { [weak weakself = self] in
+            weakself?.display.textColor = UIColor.green
+            return sqrt($0)
+        }
+    }
+    
     @IBAction func performOperation(_ sender: UIButton) {
         if userIsInTheMiddleOfTyping {
             brain.setOperand(displayValue)

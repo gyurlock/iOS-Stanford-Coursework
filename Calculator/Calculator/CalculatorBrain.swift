@@ -20,6 +20,9 @@ struct CalculatorBrain {
     
     private var accumulator: Double?
     
+    mutating func addOperation(named symbol:String, _ operation: @escaping (Double) -> Double) {
+        operations[symbol] = Operation.unaryOperation(operation)
+    }
     
     private enum Operation {
         case constant(Double)
