@@ -19,7 +19,7 @@ class FaceView: UIView {
     }
     
     @IBInspectable
-    var eyesOpen: Bool = true{
+    var eyesOpen: Bool = true {
         didSet {
             setNeedsDisplay()
         }
@@ -27,7 +27,7 @@ class FaceView: UIView {
 
     
     @IBInspectable
-    var mouthCurvature: Double = -0.5 // 1.0 is full smile and -1.0 is full frown
+    var mouthCurvature: Double = 0.5// 1.0 is full smile and -1.0 is full frown
     {
     didSet {
     setNeedsDisplay()
