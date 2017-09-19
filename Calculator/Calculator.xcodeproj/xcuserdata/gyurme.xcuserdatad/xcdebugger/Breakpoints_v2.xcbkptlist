@@ -26,13 +26,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Calculator/ViewController.swift"
-            timestampString = "526431893.332534"
+            timestampString = "527483401.915939"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
-            landmarkName = "touchDigit(_:)"
-            landmarkType = "7">
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "ViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -79,8 +79,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "72"
             endingLineNumber = "72"
-            landmarkName = "performPendingBinaryOperation()"
-            landmarkType = "7">
+            landmarkName = "CalculatorBrain"
+            landmarkType = "14">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

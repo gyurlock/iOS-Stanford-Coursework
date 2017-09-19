@@ -16,7 +16,7 @@ func multiply(first: Double, second: Double) -> Double {
     return first * second
 }
 
-struct CalculatorBrain {
+struct CalculatorBrain : CustomStringConvertible {
     
     private var accumulator: Double?
     
@@ -96,5 +96,8 @@ struct CalculatorBrain {
             return accumulator
         }
     }
+    
+    public var description: String { return "A Brain" }
+
     
 }

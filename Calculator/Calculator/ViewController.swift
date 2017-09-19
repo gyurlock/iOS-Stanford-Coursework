@@ -30,6 +30,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         brain.addOperation(named: "✅") { [weak weakself = self] in
             weakself?.display.textColor = UIColor.green
+            print("This should work \(self.brain)")
             return sqrt($0)
         }
     }
